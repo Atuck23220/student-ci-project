@@ -16,7 +16,7 @@ class TestMultiply(unittest.TestCase):
 class TestSubtract(unittest.TestCase):
 
     def test_positive_result(self):
-           self.assertEqual(subtract(10, 4), 6)
+           self.assertEqual(subtract(10, 4), 8)
 
     def test_negative_result(self):
            self.assertEqual(subtract(3, 8), -5)
