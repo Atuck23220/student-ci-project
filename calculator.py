@@ -9,9 +9,6 @@ def subtract(num1, num2):
 
 
 if __name__ == "__main__":
-    num1 = 2
-    num2 = 4
-    if multiply(num1, num2) == 8:
-        print("correct!")
-    else:
-        print("nope")
+    print("Application started")
+    print("2 * 4 =", multiply(2, 4))
+    print("10 - 4 =", subtract(10, 4))
